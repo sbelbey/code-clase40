@@ -3,7 +3,6 @@ import Users from "../src/dao/Users.dao.js";
 import chai from "chai";
 
 const connection = mongoose.connect(
-    `mongodb+srv://Cluster1:Qwerty123@cluster0.cewleq6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`
 );
 
 const expect = chai.expect;
